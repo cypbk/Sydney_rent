@@ -120,7 +120,7 @@ df_map = get_map_data(df_rent, shape_path)
 st.title('Sydney rent map')
 st.header("A rent map based on postcodes of Sydney resgion")
 st.markdown('This page is for visualization of the median rent of the great Sydney area. I tried to make this map because only the visualization of median rent based on local government areas (which looks really beautiful) can be found at the the office website of NSW. But I am trying to look a bit more closer.')
-st.markdown('Dwellings rental data by LGA/postcodes for December 2022 quarter can be downloaded from https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard .')
+st.markdown('Dwellings rental data by LGA/postcodes for March 2023 quarter can be downloaded from https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard .')
 
 tab_full, tab_heatmap = st.tabs(['With actual map', "Heatmap only"])
 
