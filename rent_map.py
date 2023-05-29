@@ -9,7 +9,7 @@ from streamlit_folium import st_folium
 from lga_data import *
 # 'folium', 'matplotlib' and 'mapclassify
 
-data_link = 'data/Rent-tables-December-2022-quarter.xlsx'
+data_link = 'data/Rent-tables-March-2023-quarter.xlsx'
 shape_path = 'data/POA_2021_AUST_GDA94_SHP/POA_2021_AUST_GDA94.shp'
 
 data= pd.read_excel(data_link, sheet_name='Postcode', skiprows=range(8))
